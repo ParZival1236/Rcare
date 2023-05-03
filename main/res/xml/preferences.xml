@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="notifications"
+        app:title="Disable notifications"
+        app:summary="Disable notifications so that you don't get asked about your mood daily"
+        app:iconSpaceReserved="false"/>
+
+    <Preference
+        app:key="feedback"
+        app:title="Our Team"
+        app:summary="This project is developed by group 1 RBL"
+        app:iconSpaceReserved="false"/>
+
+</PreferenceScreen>
